@@ -12,7 +12,7 @@ We also present:
 Our results demonstrate that LLM-based G2P systems can outperform traditional tools, especially in handling homographs and context-sensitive phonemes, highlighting their potential for underrepresented languages like Persian.
 
 ## Code
-The code for the experiments and tools described in the paper is provided in this repository. 
+The code for the experiments and tools described in the paper is provided in this repository and is accessible in this [colab link](https://colab.research.google.com/drive/1FgWUGkMjnnM4w9jUpZSRuwQlGnqXAhEW?usp=sharing).
 
 
 ## Additional Resources
