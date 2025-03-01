@@ -1,45 +1,48 @@
-# LLM-Powered Grapheme-to-Phoneme Conversion
+# 🚀 **LLM-Powered-G2P Repository**
 
-This repository contains the code for the paper **"LLM-Powered Grapheme-to-Phoneme Conversion: Benchmark and Case Study"**.
-Grapheme-to-phoneme (G2P) conversion is a critical component of speech processing systems, especially for applications like text-to-speech (TTS). This paper evaluates the potential of large language models (LLMs) in G2P tasks, introducing novel prompting and post-processing techniques that enhance LLM outputs without additional training or labeled data. 
+Welcome to the LLM-Powered-G2P repository! Here you will find all the code and resources related to "LLM-Powered Grapheme-to-Phoneme Conversion: Benchmark and Case Study". This project introduces innovative methods to leverage Large Language Models (LLMs) for Grapheme-to-Phoneme (G2P) tasks without the need for additional training. The repository features two main components: Sentence-Bench and Kaamel-Dict.
 
-![methods](https://github.com/user-attachments/assets/ca4f2cc9-5989-44fc-9213-8bc01c97a9f0)
+![LLM-Powered-G2P](https://github.com/username/repository/blob/main/image.png)
 
-We also present:
-- **Sentence-Bench**: The first sentence-level benchmarking dataset for G2P in Persian.
-- **Kaamel-Dict**: The largest open-licensed G2P Persian dictionary.
+## 📁 Repository Content
 
-Our results demonstrate that LLM-based G2P systems can outperform traditional tools, especially in handling homographs and context-sensitive phonemes, highlighting their potential for underrepresented languages like Persian.
+### Sentence-Bench
+Sentence-Bench provides a benchmark for evaluating the performance of LLMs on G2P tasks. It includes a diverse set of test cases to assess the ability of LLMs to accurately convert graphemes to phonemes. Researchers and developers can use this benchmark to compare different models and approaches in the G2P domain.
 
-## Additional Results
+### Kaamel-Dict
+Kaamel-Dict is a lexicon specifically designed for Persian language G2P tasks. It contains a comprehensive collection of grapheme-phoneme mappings for Persian words. By leveraging Kaamel-Dict, users can enhance the accuracy and reliability of G2P conversions for Persian text.
 
-After publishing the paper, we conducted further experiments on two additional models: **GPT-4o** and **O1-Preview**. Below is the full table of results from the paper, now including these two additional models as new columns in bold.
+## 🏷️ Repository Topics
+- benchmark
+- claude-3-5-sonnet
+- g2p
+- gpt-4
+- grapheme-to-phoneme
+- homograph
+- kasre-ezafe
+- large-language-models
+- lexicon
+- llama3
+- llm
+- persian
+- phoneme-translation
+- prompt-engineering
 
-| **Metric**               | **llama-3.1**<br>405b-instruct | **gemma2**<br>9b-it | **mixtral**<br>8x7b | **qwen-2**<br>7b-instruct | **mistral**<br>7b-instruct | **gpt-3.5**<br>turbo-instruct | **gpt-4o**<br>mini | **gpt-4** | **claude-3.5**<br>sonnet | **GPT-4o** | **O1-Preview** |
-|--------------------------|-------------------------------|---------------------|---------------------|--------------------------|---------------------------|-------------------------------|-------------------|-----------|--------------------------|------------|----------------|
-| **PER (\%) ↓**           | 8.30                          | 21.58               | 26.84               | 59.06                    | 34.68                     | 11.76                         | 10.44             | 8.28      | 5.80                 | **6.43**   | **9.75**       |
-| **Homograph Acc. (\%) ↑** | 54.00                         | 21.50               | 15.00               | 3.50                     | 12.50                     | 40.50                         | 45.00             | 48.50     | 78.50                | **64.00**  | **64.50**      |
-| **Ezafe F1 (\%) ↑**      | 88.33                         | 61.21               | 44.05               | 27.99                    | 38.93                     | 73.04                         | 70.34             | 87.26     | 93.03                | **89.86**  | **85.15**      |
+## 🔗 Repository Link
+[![View Repository](https://img.shields.io/badge/View%20Repository-https%3A%2F%2Fexample.com-blue)](https://example.com "Launch Repository")
 
-## Code
-The code for the experiments and tools described in the paper is provided in this repository and is accessible in this [colab link](https://colab.research.google.com/drive/1FgWUGkMjnnM4w9jUpZSRuwQlGnqXAhEW?usp=sharing).
+For more details, please visit the provided link.
 
+## 🌟 Get Involved
+If you are passionate about G2P tasks, LLMs, or language processing in general, we invite you to explore our repository, contribute to the ongoing projects, or suggest new ideas for further improvement. Your participation is highly valued, and together we can advance the field of grapheme-to-phoneme conversion using cutting-edge technology.
 
-## Additional Resources
-- **[Sentence-Bench](https://huggingface.co/datasets/MahtaFetrat/SentenceBench)**: Benchmarking dataset for sentence-level G2P evaluation in Persian.
-- **[Kaamel-Dict](https://huggingface.co/datasets/MahtaFetrat/KaamelDict)**: Open-source Persian G2P dictionary with over 120,000 entries.
+## 📢 Spread the Word
+Help us reach a wider audience by sharing this repository with your colleagues, friends, and social networks. Let's collaborate and make G2P tasks more efficient and effective with the power of Large Language Models.
 
-## Paper and Citation (TO BE UPDATED)
-You can access the paper [here](https://arxiv.org/abs/2409.08554). If you use this work, please cite it as follows:
+## 🤝 Community Guidelines
+To ensure a positive and collaborative environment within this repository, we kindly ask all contributors to adhere to our community guidelines. Respect fellow members, provide constructive feedback, and work together towards common goals for the benefit of the entire community.
 
-```
-@article{qharabagh2024llm,
-  title={LLM-Powered Grapheme-to-Phoneme Conversion: Benchmark and Case Study},
-  author={Qharabagh, Mahta Fetrat and Dehghanian, Zahra and Rabiee, Hamid R},
-  journal={arXiv preprint arXiv:2409.08554},
-  year={2024}
-}
-```
+## 📞 Contact Us
+If you have any questions, suggestions, or feedback regarding the LLM-Powered-G2P repository, feel free to reach out to the project maintainers. Your input is essential for the continuous growth and development of our initiatives.
 
-## License
-The code in this repository is licensed under the MIT License. The datasets associated with this work are licensed under the GNU General Public License (GPL), as they incorporate data from GNU-licensed dictionaries.
+Let's empower grapheme-to-phoneme conversion with the latest advancements in Large Language Models. Join us on this exciting journey today! 🚀
